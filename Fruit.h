@@ -6,13 +6,13 @@
 #define CH09FILELINKEDLIST_FRUIT_H
 #include "ProduceItem.h"
 
-class Fruit : ProduceItem {
+class Fruit : public ProduceItem {
 private:
     bool seed;
 public:
     Fruit();
     Fruit(string name, int quantity, int expDate, bool seed);
-    
+    void printItem();
 };
 
 

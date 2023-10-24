@@ -73,6 +73,12 @@ build CMakeFiles/CH09FILELINKEDLIST.dir/Fruit.cpp.obj: CXX_COMPILER__CH09FILELIN
   OBJECT_DIR = CMakeFiles\CH09FILELINKEDLIST.dir
   OBJECT_FILE_DIR = CMakeFiles\CH09FILELINKEDLIST.dir
 
+build CMakeFiles/CH09FILELINKEDLIST.dir/Vegetable.cpp.obj: CXX_COMPILER__CH09FILELINKEDLIST_unscanned_Debug C$:/Users/hloi/CLionProjects/CSC109/CH09FILELINKEDLIST/Vegetable.cpp || cmake_object_order_depends_target_CH09FILELINKEDLIST
+  DEP_FILE = CMakeFiles\CH09FILELINKEDLIST.dir\Vegetable.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\CH09FILELINKEDLIST.dir
+  OBJECT_FILE_DIR = CMakeFiles\CH09FILELINKEDLIST.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target CH09FILELINKEDLIST
@@ -81,7 +87,7 @@ build CMakeFiles/CH09FILELINKEDLIST.dir/Fruit.cpp.obj: CXX_COMPILER__CH09FILELIN
 #############################################
 # Link the executable CH09FILELINKEDLIST.exe
 
-build CH09FILELINKEDLIST.exe: CXX_EXECUTABLE_LINKER__CH09FILELINKEDLIST_Debug CMakeFiles/CH09FILELINKEDLIST.dir/main.cpp.obj CMakeFiles/CH09FILELINKEDLIST.dir/Items.cpp.obj CMakeFiles/CH09FILELINKEDLIST.dir/ProduceItem.cpp.obj CMakeFiles/CH09FILELINKEDLIST.dir/Fruit.cpp.obj
+build CH09FILELINKEDLIST.exe: CXX_EXECUTABLE_LINKER__CH09FILELINKEDLIST_Debug CMakeFiles/CH09FILELINKEDLIST.dir/main.cpp.obj CMakeFiles/CH09FILELINKEDLIST.dir/Items.cpp.obj CMakeFiles/CH09FILELINKEDLIST.dir/ProduceItem.cpp.obj CMakeFiles/CH09FILELINKEDLIST.dir/Fruit.cpp.obj CMakeFiles/CH09FILELINKEDLIST.dir/Vegetable.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\CH09FILELINKEDLIST.dir

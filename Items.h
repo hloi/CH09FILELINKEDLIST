@@ -25,7 +25,7 @@ public:
 
     void setItemQuantity(int itemQuantity);
 
-    void printItem();
+    virtual void printItem();
 
 };
 

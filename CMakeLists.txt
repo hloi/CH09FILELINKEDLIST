@@ -9,4 +9,6 @@ add_executable(CH09FILELINKEDLIST main.cpp
         ProduceItem.cpp
         ProduceItem.h
         Fruit.cpp
-        Fruit.h)
+        Fruit.h
+        Vegetable.cpp
+        Vegetable.h)
